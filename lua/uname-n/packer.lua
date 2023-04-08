@@ -25,7 +25,7 @@ return require('packer').startup(function(use)
 	use { 'nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' } }
     
     use { 'github/copilot.vim', branch = 'release' }
-    use { "laytan/cloak.nvim" }
+    use { 'laytan/cloak.nvim' }
   
     if packer_bootstrap then
         require('packer').sync()
