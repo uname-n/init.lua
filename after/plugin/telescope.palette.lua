@@ -3,7 +3,6 @@ require('telescope').setup({
         command_palette = {     
             {"navigation",
                 { "find_files (<leader>pp)", ":lua require('telescope.builtin').find_files()" },
-                { "dir (<leader>pd)", ":lua vim.cmd.Ex()" },
                 { "harpoon.anchor (<leader>ha)", ":lua require('harpoon.mark').add_file()" },
                 { "harpoon (<leader>hh)", ":lua require('harpoon.ui').toggle_quick_menu()" },
             },

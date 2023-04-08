@@ -21,6 +21,8 @@ return require('packer').startup(function(use)
 	use { "LinArcX/telescope-command-palette.nvim" }
     use { 'ThePrimeagen/harpoon' }
 
+    use { 'preservim/nerdtree' }
+
     use { 'neoclide/coc.nvim', branch = 'release' }
 	use { 'nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' } }
     
