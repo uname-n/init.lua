@@ -28,7 +28,7 @@ return require('packer').startup(function(use)
     
     use { 'github/copilot.vim', branch = 'release' }
     use { 'laytan/cloak.nvim' }
-  
+
     if packer_bootstrap then
         require('packer').sync()
     end

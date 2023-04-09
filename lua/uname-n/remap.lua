@@ -1,5 +1,3 @@
-vim.keymap.set("n", "<leader>pd", vim.cmd.Ex)
-
 vim.keymap.set("i", "<C-k>", "<Esc>")
 
 vim.api.nvim_set_keymap("i", "<C-s>", 'copilot#Suggest()', {expr=true, silent=true})
