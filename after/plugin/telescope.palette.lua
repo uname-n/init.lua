@@ -1,6 +1,6 @@
 require('telescope').setup({
     extensions = {
-        command_palette = {     
+        command_palette = {
             {"navigation",
                 { "find_files (<leader>pp)", ":lua require('telescope.builtin').find_files()" },
                 { "harpoon.anchor (<leader>ha)", ":lua require('harpoon.mark').add_file()" },
@@ -9,6 +9,7 @@ require('telescope').setup({
             {"copilot",
                 { "enable", ":Copilot enable" },
                 { "disable", ":Copilot disable" },
+                { "split", ":Copilot split" }
             },
             {"cloak",
                 { "cloak (<leader>cl)", ":lua require('cloak').toggle()" },
