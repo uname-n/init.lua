@@ -2,6 +2,8 @@ require("uname-n.packer")
 require("uname-n.set")
 require("uname-n.remap")
 
+require("uname-n.pomo")
+
 function IsNERDTreeOpen()        
   return vim.fn.exists("t:NERDTreeBufName") and (vim.fn.bufwinnr("t:NERDTreeBufName") ~= -1)
 end
