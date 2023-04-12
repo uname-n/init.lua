@@ -12,7 +12,6 @@ require('telescope').setup({
             {"copilot",
                 { "enable", ":Copilot enable" },
                 { "disable", ":Copilot disable" },
-                { "split", ":Copilot split" },
             },
             {"cloak",
                 { "cloak (<leader>cl)", ":lua require('cloak').toggle()" },
