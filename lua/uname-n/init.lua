@@ -1,4 +1,4 @@
-require("uname-n.packer")
+require("uname-n.lazy")
 require("uname-n.set")
 require("uname-n.remap")
 

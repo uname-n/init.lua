@@ -1,5 +1,3 @@
-vim.g.mapleader = " "
-
 vim.g.NERDTreeWinSize = 40
 
 vim.opt.nu = true
